@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8%;
+}
+nav .logo{
+    font-size: 32px;
+    font-weight: 500;
+    cursor: pointer;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    margin: 0 10px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}
+nav ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    width: 0;
+    height: 2.5px;
+    transition: all 0.3 ease;
+}
+nav ul li a:hover::before{
+    width: 100%;
+}
+
+nav ul i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.flex-box{
+    display: flex;
+    width: 1000x;
+    margin: 20px auto;
+    cursor: pointer;
+}    
+.left{
+    width: 50%;
+}
+.big-img{
+    width: 340px;
+   position: relative;
+    left: 210px;
+}
+.big-img img{
+    width: inherit;
+
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 15px;
+}
+.small-img{
+    width: 60px;
+    position: relative;
+    left: 210px;
+    overflow: hidden;
+    border: 1.5px solid black;
+}
+.small-img img{
+    width: inherit;
+
+}
+.small-img img{
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.small-img:hover img{
+    transform: scale(1.2);
+}
+.url{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 102, 0);
+}
+.pname{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.ratings i{
+     color: rgb(255, 123, 0);
+}
+
+.right{
+    position: absolute;
+    top: 100px;
+    left: 699px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.size{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.psize p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.psize{
+    width: 60px;
+    height: 30px;
+     border: 1px solid #ff5e00;
+    color: #000;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.psize.active{
+    border-width: 1.5px;
+    color: #ff5e00;
+    font-weight: 500;
+}
+.quantity{
+    display: flex;
+
+}
+.quantity p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.quantity input{
+    width: 40px;
+    font-size: 17px;
+    font-weight: 500;
+   text-align: center;
+   margin-left: 15px;
+}
+.btn-box{
+    display: flex;
+    margin-top: 40px;
+}
+.btn-box button{
+    font-size: 18px;
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+     color: white;
+}
+
+
+.cart-btn{
+    background-color: #ff5e00;
+     margin-right: 20px;
+}
+.buy-btn{
+    background-color: #00aeff;
+}
+
+.cart-btn:hover{
+    background-color: #ff3c00;
+}
+.buy-btn{
+    background-color: #0066ff;
+}
+.abus1{
+    position: absolute;
+    top: 6px;
+    left: 100px;
+    color: #0066ff;
+}
+
+
+
+
+
+
+
+
+
+
