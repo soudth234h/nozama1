@@ -1,0 +1,632 @@
+body{
+    overflow-x: hidden;
+}
+.pics{
+    width: 1000px;
+}
+
+
+
+.carousel-inner{
+    position: relative;
+      top: 1vw;
+      left: 3vh;
+      border-radius: 10px;
+      box-shadow: 0px 0px 90px  ;
+}
+
+
+.carousel-control-next-icon{
+    position: relative;
+    right: 20vw;
+    left: 7vh; 
+}
+
+.carousel-control-prev-icon{
+    position: relative;
+    right: 30vw;
+    left: 7vh; 
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+    background: url('R.png')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 500px;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+logo{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+   
+}
+
+
+
+.navigation .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+    
+}
+
+
+.navigation .btnLogin-popup:hover{
+    background: #fff;
+    color: #162938;
+}
+
+.Wrapper {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255, 255,255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+.Wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #162938;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+.form-box h2 {
+   font-size: 2em;
+   color: #162938;
+   text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+    
+}
+
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+ }
+
+ .input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 57px;
+ }
+
+
+.remember-forgot{
+    font-size: .9em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input{
+    accent-color: #162938;
+    margin-left: 3px;
+}
+
+.remember-forgot a {
+    color: #162938;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.login-register{
+    font-size: .9em;
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+
+.login-register p a {
+    color: #162938;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.login-register p a:hover {
+    text-decoration: underline;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.main{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+input{
+    border: 3px solid #3e6e07;
+    height: 50px;
+    width: 560px;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'segoeUI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Nozama{
+    width: 38px;
+    border-radius: 100%;
+    border: 1px solid #eee;
+}
+
+.sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150vh;
+    width: 70px;
+    background-color: #12171e;
+    padding: 0.4rem 0.8rem;
+    transition: all 0.5s ease;
+}
+
+
+.sidebar.active ~.main-content{
+    left: 250px;
+    width: calc(100% -250px);
+}
+
+
+.sidebar.active {
+    width: 250px;
+}
+
+.sidebar #btn {
+    position: absolute;
+    color: #fff;
+    top: .4rem;
+    left: 50%;
+    font-size: 1.2rem;
+    line-height: 50px;
+    transform: translateX(-50);
+    cursor: pointer;
+}
+.sidebar.active #btn {
+    left: 90%;
+}
+
+.sidebar .top .logo {
+    color: #fff;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.sidebar.active .top .logo {
+    opacity: 1;
+}
+
+.top .logo i{
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.sidebar p {
+    opacity: 0;
+}
+
+.sidebar.active p {
+    opacity: 1;
+}
+
+
+.sidebar ul li a {
+   color: #fff;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   border-radius: 0.8rem;
+}
+
+.sidebar ul li a:hover{
+    background-color: #fff;
+    color: #12171e;
+}
+
+.sidebar ul li a i {
+    min-width: 50px;
+    text-align: center;
+    height: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+}
+
+.sidebar .nav-item {
+    opacity: 0;
+}
+
+.sidebar.active .nav-item {
+    opacity: 1;
+}
+
+.sidebar ul li .tooltip{
+    position: absolute;
+    left: 125px;
+    top: 50%;
+    transform: translate(-50%, -50% );
+    box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.2);
+     border-radius: .6rem;
+     padding: .4rem 1.2rem;
+     line-height: 1.8rem;
+     z-index: 20;
+     opacity: 0;
+    }
+
+ .sidebar ul li:hover .tooltip {
+    opacity: 1;
+ } 
+ .sidebar.active ul li .tooltip{
+    display: none;
+ }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+
+.card{
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+   background-color: rgb(167, 167, 154);
+   box-shadow: 0px 0px 15px;
+   border-top-left-radius: 20px;
+}
+
+.card1 {
+    position: absolute;
+    top: 1000px;
+    left: 530px;
+    background-color: rgb(167, 167, 154);
+    box-shadow: 0px 0px 15px;
+    border-top-left-radius: 20px;
+}
+
+.card2{
+    position: absolute;
+    top: 1000px;
+    left: 1000px;
+   background-color: rgb(167, 167, 154);
+   box-shadow: 0px 0px 15px;
+   border-top-left-radius: 20px;
+}
+
+.abus{
+    position: absolute;
+    top: 2000px;
+    left: 50px;
+}
+
+
+.websitea{
+    position: absolute;
+    top: 2080px;
+    left: 50px;
+   color: #fff;
+   background-color: red;
+  align-items: center;
+
+}  
+
+.websitei{
+    position: absolute;
+    top: 2077px;
+    left: 130px;
+    color: red;
+}
+.card09{
+    position: absolute;
+    top: 2100px;
+    left: 50px;
+    background-color: honeydew;
+}
+
+.websitea1{
+    position: absolute;
+    top: 2080px;
+    left: 550px;
+    color: #fff;
+    background-color: red;
+}
+.websitei1{
+    position: absolute;
+    top: 2077px;
+    left: 630px;
+    color: red;
+}
+
+.card08{
+    position: absolute;
+    top: 2100px;
+    left: 550px;
+    background-color: honeydew;
+    box-shadow: 0px 0px 15px;
+    border-top-left-radius: 20px;
+}
+
+.websitea2{
+    position: absolute;
+    top: 2080px;
+    left: 1050px;
+    background-color: red;
+    color: #fff;
+}
+
+.websitei2{
+    position: absolute;
+    top: 2077px;
+    left: 1130px;
+    color: red;
+}
+
+.card01{
+    position: absolute;
+    top: 2100px;
+    right: 30px;
+    background-color: honeydew;
+    box-shadow: 0px 0px 15px;
+    border-top-left-radius: 20px;
+}
+
+.websitea3{
+    position: absolute;
+    top: 2530px;
+    left: 50px;
+    background-color: red;
+    color: #fff;
+}
+
+.websitei3{
+    position: absolute;
+    top: 2528px;
+    left: 130px;
+    color: red;
+}
+
+
+.card02{
+    position: absolute;
+    top: 2550px;
+    left: 50px;
+    background-color: honeydew;
+    box-shadow: 0px 0px 15px;
+    border-top-left-radius: 20px;
+}
+
+.websitea4{
+    position: absolute;
+    top: 2530px;
+    left: 550px;
+    color: #fff;
+    background-color: red;
+}
+
+.websitei4{
+    position: absolute;
+    top: 2528px;
+    left: 630px;
+    color: red;
+}
+
+
+
+.card03{
+    position: absolute;
+    top: 2550px;
+    left: 550px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 15px;
+    border-top-left-radius: 20px;
+}
+
+.websitea5{
+    position: absolute;
+    top: 2530px;
+    left: 1032px;
+    color: #fff;
+    background-color: red;
+}
+
+.websitei5{
+    position: absolute;
+    top: 2528px;
+    left: 1126px;
+    color: red;
+}
+
+.card04{
+    position: absolute;
+    top: 2550px;
+    right: 30px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 15px;
+    border-top-left-radius: 20px;
+}
+
+.images{
+ width: 1300px;
+}
+
+.card123{
+    position: absolute;
+    top: 1360px;
+    background-color: antiquewhite;
+}
+
+.watches{
+    position: absolute;
+    top: 3010px;
+    left: 90px;
+}
+
+.card05{
+    position: absolute;
+    top: 3150px;
+    left: 50px;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 15px;
+    border-top-left-radius: 20px;
+}
+.card06{
+    position: absolute;
+    top: 3150px;
+    left: 546px;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 15px;
+    border-top-left-radius: 20px;
+}
+.card07{
+    position: absolute;
+    top: 3150px;
+    left: 1050px;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 15px;
+    border-top-left-radius: 20px;
+}
+.seeall1{
+    position: absolute;
+    top: 3560px;
+    left: 50px;
+}
